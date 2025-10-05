@@ -15,11 +15,9 @@ notebook
 numpy
 pandas
 scikit-learn
+pandas
 scipy
-simplegeneric
 terminad
 tornad
 traitlets
 wheel
-pandas
-scikit-learn
