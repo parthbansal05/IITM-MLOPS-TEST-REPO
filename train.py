@@ -2,7 +2,7 @@ import pandas as pd
 import joblib
 
 
-iris = pd.read_csv("../data.csv")
+iris = pd.read_csv("data.csv")
 
 print(iris.head())
 
