@@ -17,7 +17,6 @@ pandas
 scikit-learn
 scipy
 simplegeneric
-six
 terminad
 tornad
 traitlets
