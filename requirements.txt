@@ -1,4 +1,3 @@
-# this version or latest
 ipykernel
 ipython
 ipython-genutils
