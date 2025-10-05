@@ -18,10 +18,10 @@ pandas
 scikit-learn
 scipy
 simplegeneric
-singledispatch
 six
 terminad
 tornad
 traitlets
 wheel
 pandas
+scikit-learn

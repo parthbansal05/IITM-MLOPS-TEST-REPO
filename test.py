@@ -7,7 +7,7 @@ print(iris.head())
 
 
 # importing alll the necessary packages to use the various classification algorithms
-from sklearn.cross_validation import train_test_split # to split the dataset for training and testing 
+from sklearn.model_selection  import train_test_split # to split the dataset for training and testing 
 from sklearn import svm # for suport vector machine algorithm
 from sklearn import metrics # for checking the model accuracy
 
