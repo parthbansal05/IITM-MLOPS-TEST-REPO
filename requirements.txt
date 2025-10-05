@@ -24,3 +24,4 @@ terminad
 tornad
 traitlets
 wheel
+pandas
