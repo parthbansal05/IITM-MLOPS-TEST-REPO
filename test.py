@@ -5,7 +5,7 @@ from pandas import Series, DataFrame
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-iris = pd.read_csv("data.csv")
+iris = pd.read_csv("../data.csv")
 
 print(iris.head())
 
