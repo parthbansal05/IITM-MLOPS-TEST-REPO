@@ -10,7 +10,7 @@ from sklearn.model_selection  import train_test_split # to split the dataset for
 from sklearn import svm # for suport vector machine algorithm
 from sklearn import metrics # for checking the model accuracy
 
-train, test = train_test_split(iris, test_size=0.3) # our main data split into train and test
+train, test = train_test_split(iris, test_size=0.3, random_state=42) # our main data split into train and test
 
 train_X = train[['SepalLengthCm','SepalWidthCm','PetalLengthCm','PetalWidthCm']] # taking the training data features
 train_y = train.Species # output of the training data

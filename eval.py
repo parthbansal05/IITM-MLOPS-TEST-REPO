@@ -5,7 +5,7 @@ from sklearn import metrics
 
 model = joblib.load('svm_iris_model.joblib')
 
-csv_file_path = '../data.csv'
+csv_file_path = 'data.csv'
 data = pd.read_csv(csv_file_path)
 
 _, test_data = train_test_split(data, test_size=0.3, random_state=42)
