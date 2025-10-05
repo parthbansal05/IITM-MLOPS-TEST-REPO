@@ -1,9 +1,5 @@
-import numpy as np
 import pandas as pd 
-from pandas import Series, DataFrame
 
-import seaborn as sns
-import matplotlib.pyplot as plt
 
 iris = pd.read_csv("../data.csv")
 
@@ -11,12 +7,9 @@ print(iris.head())
 
 
 # importing alll the necessary packages to use the various classification algorithms
-from sklearn.linear_model import LogisticRegression # for Logistic Regression Algorithm
 from sklearn.cross_validation import train_test_split # to split the dataset for training and testing 
-from sklearn.neighbors import KNeighborsClassifier # KNN classifier
 from sklearn import svm # for suport vector machine algorithm
 from sklearn import metrics # for checking the model accuracy
-from sklearn.tree import DecisionTreeClassifier # for using DTA
 
 train, test = train_test_split(iris, test_size=0.3) # our main data split into train and test
 
